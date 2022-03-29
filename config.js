@@ -5,11 +5,9 @@ const { DB_PASSWORD } = process.env.DB_PASSWORD;
 const connectDB = () => {
     return mongoose
         .connect(
-            `mongodb://node-rest-api:${DB_PASSWORD}@node-rest-api.mongo.cosmos.azure.com:10255/?ssl=true&appName=@node-rest-api@&retryWrites=false`,
-            {
-                useCreateIndex: true,
+            `mongodb://hkairqualityexpress-db:o4IFPRGcKZksa8LWij7kv20VTZUWRN0My5kkazueTf8WPDet145YIgNU33m70JcL7Vv8oYWT73jo2t8soUB9Ug==@hkairqualityexpress-db.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@hkairqualityexpress-db@n`,
+           {
                 useNewUrlParser: true,
-                useFindAndModify: true,
                 useUnifiedTopology: true,
             }
         )
