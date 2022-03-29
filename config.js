@@ -5,7 +5,7 @@ const { DB_PASSWORD } = process.env.DB_PASSWORD;
 const connectDB = () => {
     return mongoose
         .connect(
-            `mongodb://hkairqualityexpress-db:o4IFPRGcKZksa8LWij7kv20VTZUWRN0My5kkazueTf8WPDet145YIgNU33m70JcL7Vv8oYWT73jo2t8soUB9Ug==@hkairqualityexpress-db.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@hkairqualityexpress-db@n`,
+            `mongodb://hkairqualityexpress-db:o4IFPRGcKZksa8LWij7kv20VTZUWRN0My5kkazueTf8WPDet145YIgNU33m70JcL7Vv8oYWT73jo2t8soUB9Ug==@hkairqualityexpress-db.mongo.cosmos.azure.com:10255/HKAirQualityIndoorMonitorSystem?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@hkairqualityexpress-db@n`,
            {
                 useNewUrlParser: true,
                 useUnifiedTopology: true,

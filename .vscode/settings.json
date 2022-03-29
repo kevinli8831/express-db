@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/59e3ec4c-0cdc-4fc0-8d3f-aa58808f5f6d/resourceGroups/HongKongAirQuality_group/providers/Microsoft.Web/sites/express-db",
+    "appService.deploySubpath": "."
+}
